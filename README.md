@@ -1,5 +1,5 @@
 What the Font!
 Interface Design Using CSS - 201
 
-Julia Marques Batista
+Julia Marques Batista<br>
 Julina Pivaro
