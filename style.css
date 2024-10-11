@@ -1,0 +1,168 @@
+/*Predefined fant for the whole page*/
+html{font-family:Arial, Helvetica, sans-serif;}
+
+body{
+    padding-top: 0px;
+    margin: 0;
+    background-image:url('../image/queen_background.jpg');
+    background-size: contain ;
+    
+}
+
+/*Header */
+header{
+    background-color: #0e0e0e;
+    position: fixed;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    top: 0; /*header stays on top*/
+    z-index: 1000; //*nav bar stay on top of the other content*/
+  }
+
+  /*Styling for the logo to be on the left*/
+  header div{
+    width: auto;
+    height: 115px;
+    flex-grow: 20;
+  }
+
+  /*styling for the image to fit on the header*/
+  header div a img{
+    width: auto;
+    height: 100%;
+  }
+
+  /*Style of the header menu*/
+  header nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+  }
+
+  /*Style for the menu items*/
+  header nav ul li{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+
+  /*Link will be white when not clicked*/
+  header a:link{
+    color: #f4f4f4;
+  }
+
+  /*Link will be red when hovered*/
+  header a:hover, header a:active, header a:focus,header a:visited{
+    color: #db0000;
+  }
+
+  main.whole-song {
+    margin-top: 125px;
+    text-align: center;
+    
+}
+
+.trans-box{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+/*Song Title*/
+h1{
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+
+.first-verse{
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.second-verse{
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.more-emphase{
+  font-family: "Charm", cursive;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.bridge{
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.less-emphase{
+    font-weight:lighter;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.we-are-chorus{
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.no-time{
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.chorus{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    
+}
+
+.high-pitch{
+    font-weight: bold;
+    font-family:"Cinzel Decorative", serif;
+}
+
+.third-verse{
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.forth-verse{
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: bold;
+}
+
+.fithing{
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: bold;
+
+}
+
+footer{
+  text-align: center;
+  color: white;
+  background-color: maroon;
+  padding: 4px;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
